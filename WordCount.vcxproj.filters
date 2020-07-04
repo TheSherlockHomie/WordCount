@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="wc.cpp">
+    <ClCompile Include="WordCount.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
