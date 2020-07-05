@@ -21,7 +21,7 @@ int main(int argc, char * argv[])
     }
     else
     {
-        if (argc > 2) //Arguments should be only <filename> in this case
+        if (argc != 2) //Arguments should be only <filename> in this case
         {
             printUsage(argv[0]);
             return EXIT_FAILURE;
