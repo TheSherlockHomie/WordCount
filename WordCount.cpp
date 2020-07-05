@@ -77,7 +77,7 @@ int countWords(std::string filename)
 #ifdef _WIN32
         strerror_s(errmsg, sizeof(errmsg), errno);
 #else
-        strerror_r(errno, errmsg, sizeof(errmsg);
+        strerror_r(errno, errmsg, sizeof(errmsg));
 #endif
         std::cerr << "The file could not be opened\n";
         std::cerr << "Error: " << errmsg << "\n";
@@ -118,7 +118,7 @@ void getFrequency(std::string filename)
 #ifdef _WIN32
         strerror_s(errmsg, sizeof(errmsg), errno);
 #else
-        strerror_r(errno, errmsg, sizeof(errmsg);
+        strerror_r(errno, errmsg, sizeof(errmsg));
 #endif
         std::cerr << "The file could not be opened\n";
         std::cerr << "Error: " << errmsg << "\n";
